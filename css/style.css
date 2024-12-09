@@ -1,33 +1,36 @@
-
-
 @import url('https://use.typekit.net/vkk8wlx.css');
 
 
 
 :root {
-  --navbar-color: #C35960;        
-  --footer-color: #943C42;        
-  --text-color: #424B5A;          
-  --heading-color: #505D68;       
-  --button-color: #C35960;        
-  --button-hover: #b04f57;        
-  --light-color: #ffffff;         
-  --hover-light: #fefefe;         
-  --hover-footer: #e4e4e4;       
+  --navbar-color: #C35960;
+  --footer-color: #943C42;
+  --text-color: #424B5A;
+  --heading-color: #505D68;
+  --button-color: #C35960;
+  --button-hover: #b04f57;
+  --light-color: #ffffff;
+  --hover-light: #fefefe;
+  --hover-footer: #e4e4e4;
 }
 
 body {
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
-  color: var(--text-color); 
+  color: var(--text-color);
   line-height: 1.6;
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "specter", sans-serif;
   color: var(--heading-color);
-  font-weight: 700; 
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -56,11 +59,11 @@ section.position-relative {
   align-items: center;
   background-size: cover !important;
   background-position: center center !important;
-  padding-top: 80px; 
+  padding-top: 80px;
 }
 
 .hero-banner p.lead {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 
@@ -81,11 +84,11 @@ section.position-relative .container {
 }
 
 section.position-relative h1 {
-  font-family: "azo-sans-uber", sans-serif; 
+  font-family: "azo-sans-uber", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #ffffff !important; 
+  color: #ffffff !important;
 }
 
 section.position-relative p.lead {
@@ -133,7 +136,7 @@ a:hover {
 
 .btn:hover {
   background-color: var(--button-hover);
-  color: var(--light-color); 
+  color: var(--light-color);
 }
 
 
@@ -175,10 +178,10 @@ a:hover {
 }
 
 .card img {
-  height: 200px; 
-  width: 100%; 
-  object-fit: cover; 
-  border-radius: 5px; 
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .card-title {
@@ -190,7 +193,8 @@ a:hover {
 
 
 
-.footer-location, .footer-email {
+.footer-location,
+.footer-email {
   color: white !important;
 }
 
