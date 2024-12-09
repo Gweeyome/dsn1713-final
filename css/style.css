@@ -118,9 +118,6 @@ a:hover {
   color: var(--button-hover);
 }
 
-/* ------------------------------
-     BUTTONS
-     ------------------------------ */
 
 .btn {
   font-family: "futura-pt-bold", sans-serif;
@@ -136,12 +133,9 @@ a:hover {
 
 .btn:hover {
   background-color: var(--button-hover);
-  color: var(--light-color); /* Ensure text remains visible on hover */
+  color: var(--light-color); 
 }
 
-/* ------------------------------
-     NAVBAR
-     ------------------------------ */
 
 .navbar {
   background-color: var(--navbar-color) !important;
@@ -168,9 +162,7 @@ a:hover {
   color: var(--hover-light) !important;
 }
 
-/* ------------------------------
-     PRODUCT CATEGORIES & CARDS
-     ------------------------------ */
+
 
 .card {
   border: none;
@@ -183,10 +175,10 @@ a:hover {
 }
 
 .card img {
-  height: 200px; /* Uniform height for all images */
-  width: 100%; /* Ensure image spans the card width */
-  object-fit: cover; /* Maintain aspect ratio while cropping */
-  border-radius: 5px; /* Optional border radius for aesthetics */
+  height: 200px; 
+  width: 100%; 
+  object-fit: cover; 
+  border-radius: 5px; 
 }
 
 .card-title {
@@ -196,11 +188,7 @@ a:hover {
   color: var(--heading-color);
 }
 
-/* ------------------------------
-     FOOTER
-     ------------------------------ */
 
-/* Footer Styling */
 
 .footer-location, .footer-email {
   color: white !important;
